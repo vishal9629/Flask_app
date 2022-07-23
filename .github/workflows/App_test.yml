@@ -14,7 +14,7 @@ jobs:
         hostname
     - name: Get system Information
       run: |
-        systeminfo
+        uname -a
     - name: Get Architecture
       run: |
-        SET Processor
+        dpkg --print-architecture
