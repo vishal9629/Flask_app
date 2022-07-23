@@ -26,12 +26,25 @@
  <li>Now you will have Client id.</li>
  <li>Genrate Client Secret.</li>
  <li>Paste your Client ID and Client Secret in .env.</li>
- <ul>
-<h2>Run the code</h2>
+ </ul>
+<h3>Run the code</h3>
 <ul type="disc">
  <li>Check your vitualenv is activated.</li>
  <li>To start the app type Python Flask_app.</li>
  <li>Click on link genrated in terminal.</li>
+ </ul>
+<hr>
+<h2>Problem Statement</h2>
+ Create a very simple web app with Flask Backend. There should be two pages to it:
+ <ul>
+<li> Login Page: To login via GitHub.</li>
+<li> After login, display the user's name and image.</li>
+<li> Write a GitHub Action workflow file with Cirun to set up the app in the CI.</li>
+ </ul>
+<hr>
+<h2>Approach to the problem</h2>
+
+ 
  
     
 
