@@ -21,6 +21,7 @@ github = oauth.register (
     client_kwargs = {'scope': 'user:email'},
 )
 
+
 @app.route('/')
 def Html():
     return render_template('Html.html')

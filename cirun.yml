@@ -4,3 +4,4 @@ runners:
     instance_type: s-1vcpu-1gb
     machine_image: ubuntu-20-04-x64
     workflow: .github/workflows/App_test.yml
+    
