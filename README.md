@@ -4,11 +4,11 @@
 <hr border-top: 1px dashed>
 <h2>Requirements</h2>
 <hr>
-<ol type ="i">
+<ul type ="disc">
 <li>python 3.10.5</li>
  <li>Flask</li>
   <li>git</li>
-</ol>
+</ul>
 <hr>
 <h2>How to setup</h2>
 <ul type="disc">
