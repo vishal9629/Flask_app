@@ -20,8 +20,8 @@
  <li>Go to Settings/Developer settings.</li>
  <li>Select OAuth apps and click on New OAuth app.</li>
  <li>Fill all the details.</li>
- <li>For Homepage URL fill http://localhost:5000</li>
- <li>For Authorization callback URL fill http://localhost:5000/api/auth/github</li>
+ <li>For Homepage URL fill http://127.0.0.1:5000/</li>
+ <li>For Authorization callback URL fill http://127.0.0.1:5000/login/github/authorize</li>
  <li>Click on Register Application</li>
  <li>Now you will have Client id.</li>
  <li>Genrate Client Secret.</li>
