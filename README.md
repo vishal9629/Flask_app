@@ -1,7 +1,7 @@
 <h1>Web-App login using Github</h1>
 <hr>
 <p><b>In this project we used OAUTH to login with Github.</b></p>
-<hr>
+<hr border-top: 1px dashed>
 <h2>Requirements</h2>
 <hr>
 <ol type ="i">
