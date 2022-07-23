@@ -42,8 +42,6 @@ def github_authorize():
     print(f"\n{resp}\n")
     name = resp["login"]
     avatar_url = resp["avatar_url"]
-    print(name + "nabin")
-    print(avatar_url+ "vishal")
     return  render_template('user.html',User_name=name,User_profile=avatar_url)
 
 
