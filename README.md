@@ -43,6 +43,12 @@
  </ul>
 <hr>
 <h2>Approach to the problem</h2>
+<ul type="disc">
+<li>I divided the task in 3 part.</li>
+<li>For first one it is login with Github.</li>
+<li>Then i created OAuth registry and routes for Github OAuth.</li>
+<li>Registering your OAuth app with github and creating Client_id and Client_secret.</li>
+<li>Then i returned my app to authorized page.</li>
 
  
  

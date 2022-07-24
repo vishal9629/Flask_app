@@ -30,8 +30,7 @@ def Html():
 @app.route('/login/github')
 def github_login():
     github = oauth.create_client('github')
-    redirect_uri = url_for('github_authorize',_external = True)
-    print(redirect_uri + "my name is nabin")
+    redirect_uri = url_for('github_authorize',_external = True) 
     return github.authorize_redirect(redirect_uri)
 
 @app.route('/login/github/authorize')
@@ -43,7 +42,6 @@ def github_authorize():
     name = resp["login"]
     avatar_url = resp["avatar_url"]
     return  render_template('user.html',User_name=name,User_profile=avatar_url)
-
 
 if __name__ == '__main__':
     app.run(debug=True)
