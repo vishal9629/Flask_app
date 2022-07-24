@@ -30,7 +30,7 @@
 <h3>Run the code</h3>
 <ul type="disc">
  <li>Check your vitualenv is activated.</li>
- <li>To start the app type Python Flask_app.</li>
+ <li>To start the app type Python app.py.</li>
  <li>Click on link genrated in terminal.</li>
  </ul>
 <hr>
