@@ -61,7 +61,7 @@
 <li>To set up it with Cirun, I read the documentation.</li>
 <li>Then I wrote a .cirun.yml.</li>
 <li>I install Cirun on my Github and gave access to this repo.</li>
-<li>I connected my Digitalocean with Cirun.<li>
+<li>I connected my Digitalocean with Cirun.</li>
 <li>I commit an update on my repo and the runner is running fine.</li>
 </ul>
 <hr>
