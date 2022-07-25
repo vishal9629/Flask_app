@@ -4,4 +4,7 @@ runners:
     instance_type: s-1vcpu-1gb
     machine_image: ubuntu-latest
     workflow: .github/workflows/App_test.yml
+    count: 1
+    labels: 
+      - do-cpu
     

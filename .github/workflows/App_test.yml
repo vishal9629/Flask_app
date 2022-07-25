@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ["self-hosted", "do-runner"]
+    runs-on: ["self-hosted", "do-cpu"]
     steps:
     - uses: actions/checkout@v2
 
