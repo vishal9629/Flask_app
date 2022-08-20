@@ -1,8 +1,8 @@
 runners:
-  - name: do-runner
-    cloud: digitalocean
-    instance_type: s-1vcpu-1gb
-    machine_image: ubuntu-20-04-x64
+  - name: oracle-runner
+    cloud: oracle
+    instance_type: VM.Standard.E2.1.Micro
+    machine_image: ocid1.image.oc1.uk-london-1.aaaaaaaavy5v3inu2ho2h57vwvvsclukdh4jvhg45um2nrejyxa7s46zcwoq
     workflow: .github/workflows/App_test.yml
     count: 1
     labels: 
