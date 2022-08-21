@@ -6,5 +6,5 @@ runners:
     workflow: .github/workflows/App_test.yml
     count: 1
     labels: 
-      - do-cpu
+      - oracle
     
