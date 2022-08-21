@@ -8,7 +8,6 @@
   <li>git</li>
 </ul>
 <hr>
-
 <h2>How to setup</h2>
 <ul type="disc">
  <li>Install python</li>
