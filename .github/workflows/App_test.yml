@@ -1,6 +1,6 @@
 name: Test runner 
 
-on: [push]
+on: push
 
 jobs:
   build:
